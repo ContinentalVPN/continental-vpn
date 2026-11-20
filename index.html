@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CONTINENTAL VPN — удобный доступ к привычным сайтам и приложениям. Подключение через Telegram, помощь с настройкой и реферальная программа.">
+  <meta name="robots" content="index, follow">
+  <title>CONTINENTAL VPN — Интернет без лишних ограничений</title>
+  <style>
+    :root {
+      --gold: #d8b879;
+      --muted: #a8a49b;
+      --bg: #080909;
+      --panel: #121313;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: #f4efe5;
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+    }
+    a { color: inherit; text-decoration: none; }
+    .wrap { width: min(1100px, 90%); margin: auto; }
+    header {
+      border-bottom: 1px solid #3a3021;
+      background: rgba(8,9,9,.96);
+    }
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 22px 0;
+      flex-wrap: wrap;
+    }
+    .brand {
+      font-family: Georgia, serif;
+      font-size: 21px;
+      letter-spacing: 2px;
+      color: var(--gold);
+    }
+    .navlinks { display: flex; gap: 22px; flex-wrap: wrap; }
+    .navlinks a { font-size: 14px; color: #d8d3c9; }
+    .hero {
+      padding: 110px 0 120px;
+      text-align: center;
+      background:
+        radial-gradient(ellipse at 50% 10%, #46351d 0%, transparent 55%),
+        linear-gradient(#11110e, #080909);
+    }
+    .eyebrow {
+      color: var(--gold);
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      font-size: 12px;
+    }
+    h1, h2, h3 { font-family: Georgia, serif; }
+    h1 {
+      font-size: clamp(45px, 8vw, 86px);
+      font-weight: 400;
+      line-height: 1.12;
+      letter-spacing: 4px;
+      margin: 22px 0;
+      color: #e9ca8d;
+    }
+    .hero p {
+      color: #c4bdb1;
+      font-size: 18px;
+      max-width: 650px;
+      margin: 0 auto 32px;
+    }
+    .button {
+      display: inline-block;
+      padding: 14px 30px;
+      background: linear-gradient(135deg, #f1d49a, #b58a45);
+      color: #17120b;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+    section { padding: 78px 0; }
+    h2 {
+      color: var(--gold);
+      font-size: clamp(29px, 5vw, 42px);
+      font-weight: 400;
+      text-align: center;
+      margin: 0 0 18px;
+    }
+    .intro {
+      text-align: center;
+      color: var(--muted);
+      max-width: 690px;
+      margin: 0 auto 38px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid #403321;
+      padding: 28px;
+      border-radius: 8px;
+    }
+    .card .symbol { color: var(--gold); font-size: 27px; }
+    .card h3 { color: #f0d39b; font-size: 21px; }
+    .card p { color: #aaa59b; font-size: 15px; }
+    .referral {
+      background: linear-gradient(120deg, #19160f, #0a0a09);
+      border-top: 1px solid #32291b;
+      border-bottom: 1px solid #32291b;
+      text-align: center;
+    }
+    .referral p { color: #c6bdb0; }
+    .articles { max-width: 760px; margin: auto; }
+    .article {
+      display: block;
+      padding: 22px 0;
+      border-bottom: 1px solid #3b3021;
+    }
+    .article strong { display: block; color: #e7c889; }
+    .article span { color: var(--muted); font-size: 14px; }
+    .center { text-align: center; }
+    footer {
+      padding: 34px 0;
+      border-top: 1px solid #33291c;
+      text-align: center;
+      color: #8d887e;
+      font-size: 13px;
+    }
+    footer a { color: var(--gold); }
+    @media (max-width: 720px) {
+      .grid { grid-template-columns: 1fr; }
+      .hero { padding: 85px 0; }
+      nav { justify-content: center; text-align: center; }
+      section { padding: 60px 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="wrap">
+      <a class="brand" href="#">CONTINENTAL VPN</a>
+      <div class="navlinks">
+        <a href="#advantages">Преимущества</a>
+        <a href="#referral">Бонусы</a>
+        <a href="#articles">Статьи</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div class="wrap">
+        <div class="eyebrow">Ваш пропуск в цифровой мир</div>
+        <h1>CONTINENTAL<br>VPN</h1>
+        <p>Интернет без лишних ограничений. Возвращайтесь к привычным сайтам и приложениям с удобным подключением через Telegram.</p>
+        <a class="button" href="https://t.me/ContinentalVPN_bot?start" target="_blank" rel="noopener noreferrer">Получить доступ</a>
+      </div>
+    </div>
+
+    <section id="advantages">
+      <div class="wrap">
+        <h2>Свобода начинается здесь</h2>
+        <p class="intro">Простой способ подключиться и пользоваться привычными интернет-сервисами.</p>
+        <div class="grid">
+          <div class="card">
+            <div class="symbol">✦</div>
+            <h3>Доступ к сайтам</h3>
+            <p>Помогаем пользоваться ресурсами, доступ к которым ограничен.</p>
+          </div>
+          <div class="card">
+            <div class="symbol">◈</div>
+            <h3>Удобное подключение</h3>
+            <p>Выберите подписку и следуйте инструкции в Telegram-боте.</p>
+          </div>
+          <div class="card">
+            <div class="symbol">✧</div>
+            <h3>Помощь с настройкой</h3>
+            <p>Инструкции для подключения и ответы на распространённые вопросы.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="referral" id="referral">
+      <div class="wrap">
+        <h2>Приглашайте друзей</h2>
+        <p>Ваш друг получает <strong>7 дней бесплатного доступа</strong>.</p>
+        <p>Вы получаете <strong>20% от его оплат</strong> по реферальной программе.</p>
+        <a class="button" href="https://t.me/ContinentalVPN_bot?start" target="_blank" rel="noopener noreferrer">Узнать подробнее</a>
+      </div>
+    </section>
+
+    <section id="articles">
+      <div class="wrap">
+        <h2>Полезные материалы</h2>
+        <p class="intro">Разбираемся в блокировках, подключении VPN и сетевых ограничениях.</p>
+        <div class="articles">
+          <a class="article" href="https://github.com/ContinentalVPN/continental-vpn/blob/main/vpn-mobile-internet.md">
+            <strong>Почему VPN не работает через мобильный интернет?</strong>
+            <span>Причины и способы диагностики подключения</span>
+          </a>
+          <a class="article" href="https://github.com/ContinentalVPN/continental-vpn/blob/main/vpn-ne-podklyuchaetsya-rossiya-2026.md">
+            <strong>VPN не подключается: 7 возможных причин</strong>
+            <span>Что проверить, если соединение не устанавливается</span>
+          </a>
+          <a class="article" href="https://github.com/ContinentalVPN/continental-vpn/discussions">
+            <strong>Вопросы и обсуждения</strong>
+            <span>Сообщество CONTINENTAL VPN на GitHub</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="center">
+      <div class="wrap">
+        <h2>Ваш доступ начинается здесь</h2>
+        <p class="intro">Откройте Telegram-бота и выберите удобный вариант подключения.</p>
+        <a class="button" href="https://t.me/ContinentalVPN_bot?start" target="_blank" rel="noopener noreferrer">Подключить CONTINENTAL VPN</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      © CONTINENTAL VPN · Интернет без лишних ограничений
+      <p><a href="https://t.me/ContinentalVPN_bot?start">Telegram-бот</a> · <a href="https://github.com/ContinentalVPN/continental-vpn">GitHub</a></p>
+    </div>
+  </footer>
+</body>
+</html>
