@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://continentalvpn.github.io/continental-vpn/sitemap.xml
